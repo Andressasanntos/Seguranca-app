@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #EEEEEE;
+    color: black;
+    text-align: center;
+}
+
+header{
+    background-color: #008000;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.container{
+    display: flex;
+    margin: 3%;
+}
+
+.banner1{
+    background-color: #FFFFFF;
+    width: 730px;
+    max-width: 730px;
+    max-height: 683px;
+    height: 683px;
+    border-radius: 25px;
+}
+
+.banner1 h1{
+    font-size: 36px;
+    color: #008000;
+    font-weight: 400;
+}
+
+.banner1 p{
+    font-size: 30px;
+    color: #FFA63D;
+    font-weight: 400;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 469px;
+}
+
+input[type=text]{
+    background-color: #D9D9D9;
+    font-size: 24px;
+    padding: 10px;
+    padding-left: 60px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+input[type=email]{
+    background-color: #D9D9D9;
+    font-size: 24px;
+    padding: 10px;
+    padding-left: 60px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+input[type=password]{
+    background-color: #D9D9D9;
+    font-size: 24px;
+    padding: 10px;
+    padding-left: 60px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+input[type=checkbox]{
+    height: 18px;
+    width: 17px;
+    text-align: center;
+}
+
+label{
+    font-weight: 600;
+    color: #7E7777;
+    font-size: 13px;
+    text-align: left;
+}
+
+.politica{
+    margin: 10px 10px;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+#entrar{
+    width: 174px;
+    height: 40px;
+    background-color: #ff962c;
+    color: #007f14;
+    border: none;
+    border-radius: 8px;
+    margin: 20px 30% 0 30%;
+}
+
+#entrar:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: #007f14;
+    color: #ff962c;
+    cursor: pointer;
+}
+
+#usuario_icone1{
+    width: 27px;
+    height: 27px;
+    position: relative;
+    top: 40px;
+    right: 40%;
+}
+
+#usuario_icone2{
+    width: 27px;
+    height: 27px;
+    position: relative;
+    top: 40px;
+    right: 40%;
+}
+
+#email_icone{
+    width: 33px;
+    height: 33px;
+    position: relative;
+    top: 46px;
+    right: 40%;
+}
+
+#cadeado_icone{
+    width: 28px;
+    height: 29px;
+    position: relative;
+    top: 41px;
+    right: 40%;
+}
+
+#acessibilidade{
+    width: 80.4px;
+    height: 67px;
+    position: absolute;
+    top: 350px;
+    right: 0px;
+}
+
+.banner2{
+    background-color: #008000;
+    width: 715px;
+    max-width: 715px;
+    max-height: 683px;
+    height: 683px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.banner2 h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 20%;
+}
+
+#seguranca{
+    justify-items: center;
+}
+
+#seta_icone{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: -40%;
+    bottom: 7.5%;
+}
